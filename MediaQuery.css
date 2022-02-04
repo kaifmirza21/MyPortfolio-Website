@@ -1,0 +1,442 @@
+
+@media screen and (max-width : 480px) {
+
+    .nav-box{
+        display: none;
+    }
+    body{
+        width: 90vw;
+        margin: 0;
+    }
+    header{
+        height: 10vh;
+        width: 90vw;
+    }
+    nav{
+        width: 90vw;
+        height: 80px;
+        background-color: rgb(39, 39, 39);
+    }
+    .hamburger-icon{
+        margin-top: 20px;
+        margin-left: 50px;
+        width: 90vw;
+        display: block;
+    }
+    .menu-box{
+        z-index: 1;
+    }
+    
+    .menu-block{
+        width: 130px;
+        height: 265px;
+        padding-top: 5px;
+        margin-top: 45px;
+        border: 2px solid grey;
+        position: absolute;
+        background-color: orangered;
+    }
+
+    .menu-item{
+        width: 25px;
+        height: 20px;
+        margin-bottom: 14px;
+        font-size: large;
+        color: white;
+    }
+    .hamburger-icon .menu-box .menu-block .menu-item .nav-items a{
+        position: absolute;
+        left: 0;
+        margin-left: 30px;
+    }
+    .lines{
+        margin-left: 0px;
+        width: 130px;
+    }
+    main{
+        z-index: -1;
+        position: fixed;
+    }
+    .Home-page{
+        width: 90vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name-section{
+        display: none;
+    }
+    .mob-box-in{
+        display: flex;
+        margin-top: 70px;
+        position: absolute;
+        left: 30px;
+    }
+    .name1-sec-mob{
+        margin-right: 6px;
+        color: white;
+        font-size:x-large;
+    }   
+    .name2-sec-mob{
+        color: orangered;
+        font-size:x-large;
+        padding-bottom: 10px;
+    }
+    .web-dev-mob{
+        margin-top: 110px;
+        color: white;
+        font-size: x-large;
+        position: absolute; 
+        left: 30px;
+        display: block;
+    }
+    .image-section{
+        position: absolute;
+        left: 30px;
+        top: -30px;
+    }
+
+    .left , .right{
+        display: none;
+    }
+    .about-page{
+        padding-top: 80px;
+        width: 80vw;
+        height: 250vh;
+        overflow: hidden;
+        position: absolute;
+        left: 30px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .about-name{
+        width: 90vw;
+        display: flex;
+        flex-direction:column;
+    }
+    .about-dev{
+        margin-left: -1px;
+    }
+    .info-box{
+        flex-direction: column;
+        width: 90vw;
+    }
+    .cart-item{
+        width: 90vw;
+        margin-bottom: 20px;
+    }
+    .cart{
+        flex-direction: column;
+    }
+
+    .line-w{
+        width: 60vw;
+    }
+    .inst{
+        margin-left: 0;
+    }
+    .btn-box{
+        display: flex;
+        width: 90vw;
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+    .btn{
+        width: 30vw;
+        margin-left: 30px;
+    }
+    .resume{
+        width: 30vw;
+    }
+
+    .cart-item-education{
+        padding-left: 0;
+        margin: 0 40px 50px 0;
+        width: 90vw;
+    }
+    .jr-college{
+        margin-top: 0px;
+    }
+    .path{
+        display: none;
+    }
+    .institute{
+        padding-right: 10px;
+        width: 90vw;
+        background-color: rgba(29, 29, 29, 0.631);
+    }
+    .edu-name{
+        font-size: larger;
+    }
+    .edu-desc{
+        font-size: small;
+    }
+
+    .skills-page{
+        position: absolute;
+        left: 0;
+        height: 270vh;
+        /* margin-top: 700px; */
+    }
+    .skills-section{
+        flex-direction: column;
+    }
+    .skills-cart{
+        width: 80vw;
+    }
+    .bar-level{
+        width: 70vw;
+    }
+    .perc{
+        padding-left: 70px;
+        padding-right: 0;
+    }
+
+    .project{
+        position: absolute;
+        left: 10px;
+        margin-top: 200px;
+        width: 90vw;
+        height: 100vh;
+    }
+    .proj-box{
+        width: 90vw;
+        height: 60vh;
+        position: absolute;
+        left: 0;
+    }
+    .proj-box a{
+        width: 25px;
+        height: 50px;
+        margin-top: 60px;
+    }
+    .proj-cart{
+        padding-right: 50px;
+        width: 70vw;
+    }
+
+    .proj-item{
+        width:65vw;
+        height: 80vh;
+    }
+    .proj-slider-btn{
+        margin-top: 200px;
+        width: 50px;
+        height: 50px;
+        font-size: xx-large;
+        padding-right: 10px;
+    }
+    .proj-head{
+        margin-left: 20px;
+    }
+    .proj-slider-btn2{
+        transform: translateX(-40px);
+    }
+    .project .proj-box .proj-item .item-n-in img{
+        margin-top: 10px;
+        width:250px;
+        height: 250px;
+    }
+    .item-in{
+        flex-direction: column;
+    }
+    .proj-name{
+        margin-top: -550px;
+        margin-left: -270px;
+    }
+    .proj-tech{
+        margin-top: 300px;
+        margin-left: -240px;
+    }
+    .proj-desc{
+        margin-top: 30px;
+        font-size: small;
+        margin-left: -190px;
+    }
+    .git-repo-btn{
+        margin-left: -200px;
+        margin-top: -25px;
+    }
+    .Service-page{
+        position: absolute;
+        left: 30px;
+        width: 90vw;
+        margin-top: 2800px;
+        padding-left: 0px;
+        padding-right: 0;
+    }
+    .ser-cart{
+        width:90vw;
+        height: 90vh;
+        flex-direction: column;
+    }
+    .ser-item{
+        width: 60vw;
+        height: 30vh;
+    }
+    .contact-page{
+        width: 90vw;
+        height: 80vh;
+        position: absolute;
+        left: 30px;
+        margin-top: 4450px;
+        padding: 0;
+    }
+    .upp-1{
+        width: 100vw;
+        margin-left: 160px;
+        font-size: x-large;
+    }
+    .upp-2{
+        margin-left: 30px;
+    }
+    .cont-cart{
+        width: 90vw;
+        margin-left: -30px;
+        margin-top: -60px;
+    }
+    .cont-body-down{
+        margin-top: -50px;
+        margin-left: 25px;
+    }
+    .cont-desc-head{
+        width: 100px;
+        margin-left: 5px;
+    }
+    .cont-cart img{
+        margin-left: -40px;
+    }
+    .cont-desc-body{
+        width: 130px;
+        font-size: x-small;
+    }
+    .mob-marg{
+        margin-left: 40px;
+    }
+    .cont-body-down .btn{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width : 450px) and (min-width:420px) {
+    .image-section{
+        margin-top: 200px;
+        height: 400px;
+    }
+    .about-page{
+        margin-top: 0px;
+    }
+    .Service-page{
+        margin-top: 3000px;
+    }
+    .project{
+        margin-top: 150px;
+    }
+    .proj-item{
+        height: 600px;
+    }
+    .cont-body-upp{
+        height:10vh;
+    }
+    .contact-page{
+        margin-top: 4900px;
+    }
+    .cont-cart{
+        height: 20vh;
+    }
+    .cont-item{
+        height: 10vh
+    }
+    .btn{
+        height: 50px;
+    }
+}
+
+
+@media screen and (max-width : 375px) and (min-width:320px) {
+    .image-section{
+        margin-top: 60px;
+    }
+    .about-page{
+        margin-top: 100px;
+    }
+    .skills-page{
+        height: 450vh;
+        /* margin-top: 700px; */
+    }
+    
+    .project{
+        position: absolute;
+        left: 10px;
+        margin-top: 280px;
+        width: 90vw;
+        height: 100vh;
+    }
+    .proj-box{
+        width: 90vw;
+        height: 60vh;
+        position: absolute;
+        left: 0;
+    }
+    .proj-box a{
+        width: 25px;
+        height: 50px;
+        margin-top: 60px;
+    }
+    .proj-cart{
+        padding-right: 50px;
+        width: 70vw;
+    }
+
+    .proj-item{
+        width:65vw;
+        height: 70vh;
+    }
+    .proj-slider-btn{
+        margin-top: 200px;
+        width: 50px;
+        height: 50px;
+        font-size: xx-large;
+        padding-right: 10px;
+    }
+    .proj-head{
+        margin-left: 20px;
+    }
+    .proj-slider-btn2{
+        transform: translateX(-40px);
+    }
+    .project .proj-box .proj-item .item-n-in img{
+        margin-top: 10px;
+        width:250px;
+        height: 250px;
+    }
+    .item-in{
+        flex-direction: column;
+    }
+    .proj-name{
+        margin-top: -550px;
+        margin-left: -270px;
+    }
+    .proj-tech{
+        margin-top: 280px;
+        margin-left: -240px;
+    }
+    .proj-desc{
+        margin-top: 30px;
+        font-size: small;
+        margin-left: -190px;
+    }
+    .git-repo-btn{
+        margin-left: -200px;
+        margin-top: -20px;
+    }
+    .Service-page{
+        margin-top:3000px;
+    }
+    .contact-page{
+        margin-top: 4900px;
+    }
+}
