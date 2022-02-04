@@ -55,7 +55,6 @@
     }
     main{
         z-index: -1;
-        position: fixed;
     }
     .Home-page{
         width: 90vw;
