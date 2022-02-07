@@ -339,6 +339,10 @@
     }
     .cont-body-upp{
         height:10vh;
+        margin-bottom: 100px;
+    }
+    .cont-body-down{
+        margin-top: 30px;
     }
     .contact-page{
         margin-top: 4900px;
@@ -348,6 +352,9 @@
     }
     .cont-item{
         height: 10vh
+    }
+    .upp-1{
+        margin-left: 200px;
     }
     .btn{
         height: 50px;
@@ -439,3 +446,28 @@
         margin-top: 4900px;
     }
 }
+
+
+
+@media screen and (max-width : 400px) and (min-width:380px) {
+    .Service-page{
+        margin-top: 3000px;
+    }
+
+    .contact-page{
+        margin-top: 4800px;
+    }
+}
+
+
+
+@media screen and (max-width : 420px) and (min-width:400px) {
+    .Service-page{
+        margin-top: 3000px;
+    }
+
+    .contact-page{
+        margin-top: 4900px;
+    }
+}
+
