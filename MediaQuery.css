@@ -178,7 +178,7 @@
         position: absolute;
         left: 0;
         height: 270vh;
-        /* margin-top: 700px; */
+        margin-top: 1400px;
     }
     .skills-section{
         flex-direction: column;
@@ -371,7 +371,7 @@
     }
     .skills-page{
         height: 450vh;
-        /* margin-top: 700px; */
+        margin-top: 1400px;
     }
     
     .project{
