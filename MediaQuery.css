@@ -178,7 +178,7 @@
         position: absolute;
         left: 0;
         height: 270vh;
-        margin-top: 1400px;
+        margin-top: 700px;
     }
     .skills-section{
         flex-direction: column;
@@ -325,6 +325,9 @@
         margin-top: 200px;
         height: 400px;
     }
+    .skills-page{
+        margin-top:700px;
+    }
     .about-page{
         margin-top: 0px;
     }
@@ -371,7 +374,7 @@
     }
     .skills-page{
         height: 450vh;
-        margin-top: 1400px;
+        margin-top: 700px;
     }
     
     .project{
@@ -453,7 +456,9 @@
     .Service-page{
         margin-top: 3000px;
     }
-
+    .skills-page{
+        margin-top:700px;
+    }
     .contact-page{
         margin-top: 4800px;
     }
@@ -466,6 +471,9 @@
         margin-top: 3000px;
     }
 
+    .skills-page{
+        margin-top:700px;
+    }
     .contact-page{
         margin-top: 4900px;
     }
