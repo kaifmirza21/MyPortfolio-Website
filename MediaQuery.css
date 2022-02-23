@@ -325,6 +325,9 @@
         margin-top: 200px;
         height: 400px;
     }
+    .skills-page{
+        margin-top:700px;
+    }
     .about-page{
         margin-top: 0px;
     }
@@ -458,7 +461,9 @@
     .Service-page{
         margin-top: 3000px;
     }
-
+    .skills-page{
+        margin-top:700px;
+    }
     .contact-page{
         margin-top: 4800px;
     }
@@ -470,12 +475,18 @@
     .Service-page{
         margin-top: 3000px;
     }
+<<<<<<< HEAD
     .skills-page{
         height: 450vh;
         margin-top: 700px;        
     }
     .proj-box{
         height: 100vh;
+=======
+
+    .skills-page{
+        margin-top:700px;
+>>>>>>> d20bd2274a9911dab143cd9659a8832831b68657
     }
     .contact-page{
         margin-top: 4900px;
