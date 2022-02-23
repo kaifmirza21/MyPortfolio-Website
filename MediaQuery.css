@@ -178,7 +178,7 @@
         position: absolute;
         left: 0;
         height: 270vh;
-        /* margin-top: 700px; */
+        margin-top: 700px;
     }
     .skills-section{
         flex-direction: column;
@@ -371,7 +371,7 @@
     }
     .skills-page{
         height: 450vh;
-        /* margin-top: 700px; */
+        margin-top: 700px;
     }
     
     .project{
@@ -383,7 +383,7 @@
     }
     .proj-box{
         width: 90vw;
-        height: 60vh;
+        height: 69vh;
         position: absolute;
         left: 0;
     }
@@ -394,12 +394,17 @@
     }
     .proj-cart{
         padding-right: 50px;
-        width: 70vw;
+        width: 75vw;
+    }
+    .project .proj-box .proj-item .item-n-in img{
+        margin-top: 10px;
+        width:250px;
+        height: 250px;
     }
 
     .proj-item{
-        width:65vw;
-        height: 70vh;
+        width:70vw;
+        height: 80vh;
     }
     .proj-slider-btn{
         margin-top: 200px;
@@ -465,9 +470,27 @@
     .Service-page{
         margin-top: 3000px;
     }
-
+    .skills-page{
+        height: 450vh;
+        margin-top: 700px;        
+    }
+    .proj-box{
+        height: 100vh;
+    }
     .contact-page{
         margin-top: 4900px;
+    }
+    .item-in{
+        height: 85vh;
+    }
+    .proj-item{
+        height: 80vh;
+    }
+    .project{
+        height: 100vh;
+    }
+    .proj-cart{
+        height: 100vh;
     }
 }
 
